@@ -1,0 +1,23 @@
+.sun{
+    height:100%;
+    width:100%;
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+.animated-rays{
+    animation:sunAnimation infinite forwards 1.5s ease;
+    transform-origin: center;
+}
+
+@keyframes sunAnimation{
+    0%{
+        transform: scale(1);
+        opacity: 1;
+    }
+    100%{
+        transform: scale(1.5);
+        opacity: 0;
+    }
+}

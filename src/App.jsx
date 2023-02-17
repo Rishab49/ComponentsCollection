@@ -1,0 +1,13 @@
+import './App.css'
+import DatePicker from './components/DatePickerEl/DatePicker/DatePicker'
+
+
+function App() {
+  return (
+    <div className="App">
+     <DatePicker/>
+    </div>
+  )
+}
+
+export default App

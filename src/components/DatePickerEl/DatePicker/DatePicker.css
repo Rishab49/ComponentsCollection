@@ -1,0 +1,25 @@
+.date-picker{
+    position:relative;
+    height:fit-content;
+    width:250px;
+    display: flex;
+    flex-direction: column;
+    gap:0.5rem;
+    color:white;
+    cursor: pointer;
+}
+
+.date{
+    height:45px;
+    width:100%;
+    background-color:#222732;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0.5rem;
+    border-radius: 10px;
+}
+.planet-icon{
+    height:80%;
+    width:auto;
+}
